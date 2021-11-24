@@ -19,7 +19,7 @@ export default function Button(props) {
   };
 
   if (props.isDisabled || props.isLoading) {
-    if (props.isDisabled) className.push('btn-disabled');
+    if (props.isDisabled) className.push('disabled');
     return (
       <span className={className.join(' ')} style={props.style}>
         {props.isLoading ? (
@@ -48,14 +48,16 @@ export default function Button(props) {
         </a>
       );
     } else {
-      <Link
-        to={props.href}
-        className={className.join(' ')}
-        style={props.style}
-        onClick={onClick}
-      >
-        {props.children}
-      </Link>;
+      return (
+        <Link
+          to={props.href}
+          className={className.join(' ')}
+          style={props.style}
+          onClick={onClick}
+        >
+          {props.children}
+        </Link>
+      );
     }
   }
 

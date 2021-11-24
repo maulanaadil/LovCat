@@ -4,41 +4,90 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+@import 'functions';
+@import 'variables';
+@import 'mixins';
+@import 'root';
+@import 'reboot';
+@import 'type';
+@import 'images';
+@import 'code';
+@import 'grid';
+@import 'tables';
+@import 'forms';
+@import 'buttons';
+@import 'transitions';
+@import 'dropdown';
+@import 'button-group';
+@import 'input-group';
+@import 'custom-forms';
+@import 'nav';
+@import 'navbar';
+@import 'card';
+@import 'breadcrumb';
+@import 'pagination';
+@import 'badge';
+@import 'jumbotron';
+@import 'alert';
+@import 'progress';
+@import 'media';
+@import 'list-group';
+@import 'close';
+@import 'toasts';
+@import 'modal';
+@import 'tooltip';
+@import 'popover';
+@import 'carousel';
+@import 'spinners';
+@import 'utilities';
+@import 'print';
 
-@import "functions";
-@import "variables";
-@import "mixins";
-@import "root";
-@import "reboot";
-@import "type";
-@import "images";
-@import "code";
-@import "grid";
-@import "tables";
-@import "forms";
-@import "buttons";
-@import "transitions";
-@import "dropdown";
-@import "button-group";
-@import "input-group";
-@import "custom-forms";
-@import "nav";
-@import "navbar";
-@import "card";
-@import "breadcrumb";
-@import "pagination";
-@import "badge";
-@import "jumbotron";
-@import "alert";
-@import "progress";
-@import "media";
-@import "list-group";
-@import "close";
-@import "toasts";
-@import "modal";
-@import "tooltip";
-@import "popover";
-@import "carousel";
-@import "spinners";
-@import "utilities";
-@import "print";
+.brand-icon {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: $brand-color;
+  position: absolute;
+  top: 30%;
+  &:hover {
+    color: $font-desc;
+    text-decoration: none;
+  }
+}
+
+header {
+  color: #fefe;
+  border-bottom: 1px solid $border-color;
+  width: 100%;
+  position: relative;
+}
+
+.navbar {
+  color: #fefe;
+  height: 80px;
+  margin: 0px 70px;
+
+  ul.navbar-nav {
+    li.nav-item {
+      &.active {
+        a.nav-link {
+          $color: $font-desc;
+          font-weight: 500;
+          font-size: 16px;
+        }
+      }
+      a {
+        &.nav-link {
+          letter-spacing: 1px;
+          color: $gray-600;
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+          &:hover {
+            color: #8f8a80;
+          }
+        }
+      }
+    }
+  }
+}
