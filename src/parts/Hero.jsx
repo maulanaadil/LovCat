@@ -40,6 +40,7 @@ export default function Hero(props) {
               src={ImageHero}
               alt="pic hero"
               className="img-fluid image-hero"
+              style={{ width: 591, height: 'auto' }}
             />
           </div>
         </div>
