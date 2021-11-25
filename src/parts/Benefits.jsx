@@ -76,7 +76,8 @@ export default function Benefits(props) {
             className="img-fluid position-absolute background-vector"
             style={{
               zIndex: -3,
-              width: 900,
+              width: 810,
+              left: 700,
               textAlign: 'end',
             }}
           />
