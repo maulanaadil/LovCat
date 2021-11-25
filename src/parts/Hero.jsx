@@ -11,8 +11,8 @@ export default function Hero(props) {
         <div className="row align-items-center" style={{ marginTop: 20 }}>
           <div className="col-auto pr-5" style={{ width: 565 }}>
             <h1
-              className="font-weight-bold line-height-1 mb-3"
-              lineHeight={{ lineHeight: '63px' }}
+              className="font-weight-bold text-black mb-3"
+              style={{ lineHeight: '60px' }}
             >
               Find your adorable friend,
               <br />

@@ -6,7 +6,7 @@ import ImageWorried from 'assets/images/secondary-picture.png';
 export default function Worried(props) {
   return (
     <Fade>
-      <section className="container pt-5">
+      <section className="container container-worried">
         <div className="row align-items-center">
           <div className="col-6 pr-5">
             <img

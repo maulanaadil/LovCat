@@ -97,10 +97,6 @@ header {
   height: 534px;
 }
 
-section {
-  margin-bottom: 40px;
-}
-
 .text-check-it-out {
   margin-left: -18px;
   font-size: 20px;
@@ -109,4 +105,30 @@ section {
   &:hover {
     text-decoration: underline;
   }
+}
+
+.pt-benefits {
+  padding-top: 60px;
+}
+
+.community-pics {
+  z-index: 99;
+}
+
+img.card-person-picture {
+  width: auto;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: -15px;
+}
+
+img.background-vector {
+  height: 746px;
+  top: 1115px;
+  left: 619px;
+}
+
+img.background-vector-secondary {
+  top: 1300px;
+  left: 800px;
 }

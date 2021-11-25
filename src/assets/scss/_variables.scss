@@ -34,7 +34,7 @@ $grays: map-merge(
 );
 
 $blue: #007aff !default;
-$black: #000 !default;
+$black: #263238 !default;
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
 $pink: #e83e8c !default;
@@ -304,6 +304,7 @@ $font-size-sm: $font-size-base * 0.875 !default;
 $font-weight-lighter: lighter !default;
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
+$font-weight-medium: 500 !default;
 $font-weight-bold: 700 !default;
 $font-weight-bolder: bolder !default;
 
