@@ -57,14 +57,17 @@
 }
 
 header {
-  color: #fefe;
+  color: #fefefe;
   border-bottom: 1px solid $border-color;
   width: 100%;
   position: relative;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 .navbar {
-  color: #fefe;
   height: 80px;
   margin: 0px 70px;
 
