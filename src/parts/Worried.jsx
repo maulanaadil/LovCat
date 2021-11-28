@@ -24,7 +24,7 @@ export default function Worried(props) {
               pet data?
             </h1>
             <p
-              className="font-weight-light text-font-desc w-75 mb-1"
+              className="font-weight-normal text-font-desc mb-1"
               style={{ lineHeight: '36px' }}
             >
               Cat is the most adorable pet and can be your bestfriends as well,

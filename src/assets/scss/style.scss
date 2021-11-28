@@ -42,6 +42,7 @@
 @import 'spinners';
 @import 'utilities';
 @import 'print';
+@import 'container-grid';
 
 .brand-icon {
   font-family: 'Inter', sans-serif;
@@ -134,4 +135,14 @@ img.background-vector {
 img.background-vector-secondary {
   top: 1300px;
   left: 800px;
+}
+
+.card {
+  box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+
+img.img-size {
+  height: 230px;
+  width: 237px;
 }

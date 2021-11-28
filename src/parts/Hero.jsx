@@ -19,8 +19,8 @@ export default function Hero(props) {
               then happy by adopt it
             </h1>
             <p
-              className="font-weight-light text-font-desc w-75 mb-3"
-              style={{ lineHeight: '25px' }}
+              className="font-weight-normal text-font-desc mb-3"
+              style={{ lineHeight: '30px', width: '452px' }}
             >
               When you find your friend, you save a loving animal by make them
               part of your family.
