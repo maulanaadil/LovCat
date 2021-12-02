@@ -5,6 +5,7 @@ import Hero from 'parts/Hero';
 import Worried from 'parts/Worried';
 import Benefits from 'parts/Benefits';
 import Recommends from 'parts/Recommends';
+import Reviews from 'parts/Reviews';
 export default class LandingPage extends Component {
   constructor(props) {
     super(props);
@@ -18,6 +19,7 @@ export default class LandingPage extends Component {
         <Worried refMostPicked={this.refMostPicked} />
         <Benefits refMostPicked={this.refMostPicked} />
         <Recommends refMostPicked={this.refMostPicked} />
+        <Reviews refMostPicked={this.refMostPicked} />
       </>
     );
   }

@@ -140,9 +140,48 @@ img.background-vector-secondary {
 .card {
   box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
+
+  figure.img-wrapper {
+    img {
+      height: 230px;
+      width: 237px;
+    }
+  }
 }
 
-img.img-size {
-  height: 230px;
-  width: 237px;
+section.container-review {
+  padding-bottom: 80px;
+}
+
+.wrapper-review {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 1380px;
+  height: 400px;
+  align-items: center;
+  margin: 0 30px;
+  overflow-x: scroll;
+  margin-top: -20px;
+}
+
+.wrapper-review::-webkit-scrollbar {
+  width: 0;
+}
+
+.card-container {
+  max-width: 530px;
+  max-height: 300px;
+  margin-right: 20px;
+  flex: 0 0 auto;
+
+  img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+  }
+}
+
+.card-image-review {
+  width: 202px;
+  height: 300px;
 }
