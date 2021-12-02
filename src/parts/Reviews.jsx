@@ -8,7 +8,7 @@ import DummyPerson4 from 'assets/images/dummy-person-review-(4).png';
 
 export default function Reviews() {
   return (
-    <section className="container-fluid mt-3 container-review">
+    <section className="container-fluid mt-3">
       <div className="row" style={{ marginLeft: 120 }}>
         <h2 className="text-black font-weight-medium line-height-1">
           Happy people with happy pets

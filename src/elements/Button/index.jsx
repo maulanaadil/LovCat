@@ -12,7 +12,7 @@ export default function Button(props) {
   if (props.isSmall) className.push('btn-sm');
   if (props.isBlock) className.push('btn-block');
   if (props.hasShadow) className.push('btn-shadow');
-  if (props.isDonate) className.push('btn-donate');
+  if (props.isDonate) className.push('btn btn-outline-brand-color');
 
   const onClick = () => {
     if (props.onClick) props.onClick();

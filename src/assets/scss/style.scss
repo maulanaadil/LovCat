@@ -57,6 +57,13 @@
   }
 }
 
+.text-brand-color {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.625rem;
+  color: $brand-color;
+}
+
 header {
   color: #fefefe;
   border-bottom: 1px solid $border-color;
@@ -149,10 +156,6 @@ img.background-vector-secondary {
   }
 }
 
-section.container-review {
-  padding-bottom: 80px;
-}
-
 .wrapper-review {
   display: flex;
   flex-wrap: nowrap;
@@ -184,4 +187,29 @@ section.container-review {
 .card-image-review {
   width: 202px;
   height: 300px;
+}
+
+footer {
+  border-top: 1px solid $border-color;
+  padding-top: 50px;
+
+  .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+    a,
+    span {
+      color: $gray-500;
+      font-weight: 300;
+    }
+  }
+  a {
+    @include hover-focus {
+      color: $gray-800;
+    }
+  }
+  .copyrights {
+    margin: 20px 0;
+    font-weight: 300;
+    color: $gray-500;
+  }
 }
