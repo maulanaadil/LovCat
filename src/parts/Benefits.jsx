@@ -1,5 +1,5 @@
 import React from 'react';
-import Fade from 'react-reveal';
+import { Fade, Zoom } from 'react-reveal';
 
 import BackgroundVector from 'assets/images/background-primary-vector.png';
 import BackgroundVectorFrame from 'assets/images/background-border-vector.png';
@@ -70,41 +70,44 @@ export default function Benefits(props) {
               </div>
             </div>
           </div>
-          <img
-            src={BackgroundVector}
-            alt=""
-            className="img-fluid position-absolute background-vector"
-            style={{
-              zIndex: -3,
-              width: 810,
-              left: 700,
-              textAlign: 'end',
-            }}
-          />
-          <img
-            src={BackgroundVectorFrame}
-            alt=""
-            className="img-fluid position-absolute background-vector"
-            style={{
-              zIndex: -2,
-              margin: '5px 0 20px 0',
-              textAlign: 'end',
-              left: 700,
-            }}
-          />
-          <img
-            src={BackgroundVectorSecondary}
-            alt=""
-            className="img-fluid position-absolute background-vector-secondary"
-            style={{
-              zIndex: -1,
-              margin: '5px 0 20px 185px',
-              textAlign: 'end',
-              left: 700,
-              height: '497px',
-              width: 'auto',
-            }}
-          />
+          <Zoom delay={1}>
+            <img
+              src={BackgroundVector}
+              alt=""
+              className="img-fluid position-absolute background-vector"
+              style={{
+                zIndex: -3,
+                width: 810,
+                left: 700,
+                textAlign: 'end',
+              }}
+            />
+
+            <img
+              src={BackgroundVectorFrame}
+              alt=""
+              className="img-fluid position-absolute background-vector"
+              style={{
+                zIndex: -2,
+                margin: '5px 0 20px 0',
+                textAlign: 'end',
+                left: 700,
+              }}
+            />
+            <img
+              src={BackgroundVectorSecondary}
+              alt=""
+              className="img-fluid position-absolute background-vector-secondary"
+              style={{
+                zIndex: -1,
+                margin: '5px 0 20px 185px',
+                textAlign: 'end',
+                left: 700,
+                height: '497px',
+                width: 'auto',
+              }}
+            />
+          </Zoom>
           <div className="col-auto container-fluid position-relative">
             <div className="row align-items-start mb-3 community-pics">
               <div className="col-4 col-md-4">

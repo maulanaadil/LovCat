@@ -18,7 +18,7 @@ export default function Footer(props) {
               Donate Us
             </Button>
           </div>
-          <div className="col-auto mr-5">
+          <div className="col-auto ml-5 mr-5">
             <h6 className="mt-2 font-weight-medium">Pet Adoption</h6>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
