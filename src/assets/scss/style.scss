@@ -103,9 +103,31 @@ body {
   }
 }
 
+img.image-hero-background {
+  z-index: -1;
+  position: absolute;
+  width: auto;
+  height: 500px;
+  right: 15px;
+}
+
 .image-hero {
-  width: 591px;
-  height: 534px;
+  width: auto;
+  height: 400px;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+img.img-vector-dot {
+  z-index: 2;
+  position: absolute;
+  height: 420px;
+  width: auto;
+  right: 25px;
+
+  // Blur
+  filter: blur(1px);
+  --webkit-filter: blur(1px);
 }
 
 .text-check-it-out {
